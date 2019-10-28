@@ -193,6 +193,43 @@ ul{
   border-radius: .5rem;
 }
 
+#about{
+  color: white;
+  padding-top: 96px;
+  padding-bottom: 96px;
+  text-align: center;
+  background-color: #1abc9c;
+}
+
+#about h2{
+  font-weight: 700;
+  font-size: 48px;
+}
+
+#about .col-lg-4{
+  text-align: left;
+}
+
+#about p{
+  font-size: 20px;
+}
+
+.button-download{
+  margin-top: 24px;
+}
+
+.button-download a{
+  color: white;
+  font-size: 20px;
+  border-color: white;
+  border-width: 2px;
+  padding: 16px 28px;
+}
+
+.button-download a:hover{
+  background-color: white;
+}
+
 @media screen and (min-width:351px) {
   .button-menu{
     margin-right: 15px;
@@ -227,5 +264,19 @@ ul{
   #start-bootstrap h1{
     font-weight: 700;
     font-size: 44px;
+  }
+
+  #portfolio h2{
+    font-size: 36px;
+    font-weight: 700;
+  }
+
+  #about h2{
+    font-size: 36px;
+    font-weight: 700;
+  }
+
+  #about .col-sm-12{
+    width: 100%;
   }
 }
