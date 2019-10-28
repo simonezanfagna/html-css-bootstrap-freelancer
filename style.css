@@ -230,6 +230,19 @@ ul{
   background-color: white;
 }
 
+#contact-me{
+  padding-top: 96px;
+  padding-bottom: 96px;
+  text-align: center;
+  color: #2c3e50;
+
+}
+
+#contact-me h2{
+  font-weight: 700;
+  font-size: 48px;
+}
+
 @media screen and (min-width:351px) {
   .button-menu{
     margin-right: 15px;
