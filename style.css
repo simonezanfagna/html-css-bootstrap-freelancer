@@ -66,7 +66,7 @@ ul{
   text-align: right;
 }
 
-.button-menu{
+.button-menu, .button-send{
   background-color: #1abc9c;
   color: #fff;
   font-weight: 700;
@@ -74,6 +74,10 @@ ul{
   padding: 12.8px;
   font-size: 12.8px;
   border-radius: .5rem;
+}
+
+.button-send{
+  display: block;
 }
 
 #start-bootstrap{
@@ -241,6 +245,42 @@ ul{
 #contact-me h2{
   font-weight: 700;
   font-size: 48px;
+}
+
+#contact-me input:not(:last-of-type){
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  box-shadow: none;
+  border-radius: 0;
+  font-size: 24px;
+  padding: 50px 0;
+
+}
+
+#contact-me input:last-of-type{
+  margin-top: 16px;
+  padding: 16px 28px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+#contact-me input:last-of-type:hover{
+  color: white;
+  background-color: #159a80;
+  border-color: #148f77;
+}
+
+#contact-me textarea{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  box-shadow: none;
+  border-radius: 0;
+  resize: none;
+  font-size: 24px;
+  padding-top: 50px;
+  padding-left: 0;
 }
 
 @media screen and (min-width:351px) {
